@@ -16,5 +16,5 @@ composer require solventt/pluralizer
 ```
 ### Usage
 ```php
-$plural = (new Pluralizer())->convert('singular');
+$plural = Pluralizer::convert('singular');
 ```
