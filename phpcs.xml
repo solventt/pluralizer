@@ -9,7 +9,7 @@
 
     <ini name="memory_limit" value="50M"/>
 
-    <arg name="cache" value="./php-cs.cache"/>
+    <arg name="cache" value="php-cs.cache"/>
 
     <rule ref="PSR12">
         <exclude name="Generic.Files.LineLength.TooLong"/>
